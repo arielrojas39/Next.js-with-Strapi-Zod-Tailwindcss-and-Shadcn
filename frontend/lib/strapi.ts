@@ -45,9 +45,9 @@ export async function getStrapiData(url: string) {
 
   try {
     const response = await fetch(`${STRAPI_BASE_URL}${url}`, {
-      headers: {
-        Authorization: `Bearer ${process.env.STRAPI_TOKEN}`,
-      },
+      // headers: {
+      //   Authorization: `Bearer ${process.env.STRAPI_TOKEN}`,
+      // },
     });
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
