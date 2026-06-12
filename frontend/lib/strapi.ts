@@ -29,7 +29,7 @@ const QUERY_HOME_PAGE = {
 }
 
 export async function getHomePage() {
-//   f'use cache'
+//   'use cache'
 
 // Realizamos una prueba experimental de cache para almacenar temporalment
 // la respuesta de Strapi y evitar hacer múltiples solicitudes en un corto período de tiempo.
